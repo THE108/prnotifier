@@ -1,0 +1,14 @@
+min_reviewers_approved = 3
+pr_max_age = 14
+notification_timeout = 120
+sleep_interval = 3
+
+[bitbucket]
+username = "admin"
+password = "admin"
+uri = "http://bitbucket.com/rest/api/1.0/projects/yourproject/repos/yourrepo/pull-requests"
+
+[slack]
+uri = "https://hooks.slack.com/services/x/y/z"
+channel = "#general"
+username = "user"
